@@ -1,4 +1,4 @@
-﻿/*
+ /*
  * Enphase data collection program
  * Author:              Ryan Courreges
  * Publication Date:    6/18/2012
@@ -11,6 +11,8 @@
  *
  * Changelog:           6/28/2012 - finished adding energy data download ability. Fixed
  *                  file overwriting issue from file not found exception being thrown.
+ *
+* Acknowledgements:  Thanks to Michael Park for all the help figuring out how to use C#.
  */
 
 
