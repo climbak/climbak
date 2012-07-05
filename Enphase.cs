@@ -233,7 +233,7 @@ namespace Enphase_Data_Retrieval
                         else
                         {
                             Console.Write("The last entry of the existing data was not found\nin the downloaded data. Appending all data...");
-                            File.AppendAllText(path, response.Substring(109)); // the index of 109 removes the file header
+                            File.AppendAllText(path, response.Substring(110)); // the index of 109 removes the file header
                         }
                     }
                     // if there is no file for this module, create the first one
